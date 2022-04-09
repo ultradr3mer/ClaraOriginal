@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300;400&display=swap" rel="stylesheet">
   @*<link href="~/css/normalize.css" rel="stylesheet">
     <link href="~/css/small.css" rel="stylesheet">
     <link href="~/css/medium.css" rel="stylesheet">
@@ -21,8 +21,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid container">
       <div class="logo-div mr-2">
-        <a class="navbar-brand vertical-alignment-container horizontal-alignment-container" asp-controller="home" asp-action="index"><img src="~/images/QIcon_black.svg" alt="logo" height="40" />Entangle</a>
-        <img class="logo-edge" src="~/images/edge.svg" width="10" height="10" />
+        <img class="logo" src="~/images/logo.png" />
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,8 +31,11 @@
           <li class="nav-item">
             <a class="nav-link @(ViewData["Title"] as string == "Home" ? "active" : "")" aria-current="page" asp-controller="home" asp-action="index">Home</a>
           </li>
-          <li class="nav-item @(ViewData["Title"] as string == "Choice List" ? "active" : "")">
-            <a class="nav-link" asp-controller="choice" asp-action="list">Choices</a>
+          <li class="nav-item">
+            <a class="nav-link @(ViewData["Title"] as string == "Project details" ? "active" : "")" aria-current="page" asp-controller="home" asp-action="projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link @(ViewData["Title"] as string == "Timeline" ? "active" : "")" aria-current="page" asp-controller="home" asp-action="timeline">Timeline</a>
           </li>
           @*<partial name="_LoginPartial" />*@
         </ul>
@@ -51,20 +53,16 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8 mb-3">
-          <h5 class="container-id">U-0</h5>
           <h4>This Page</h4>
           <div>
-            <img class="floated-left-child mr-1" src="~/images/exclamation-box.svg" width="60" height="60" />
-            <span class="footer-bullet mr-1">›</span> This page is an internal test. If you are not a tester, you will not be able to sign up and use this site.<br />
-            <span class="footer-bullet mr-1">›</span> However, the sourcecode is available on <a href="https://github.com/ultradr3mer/QEntangle.Web">Github</a>.
+            <span class="footer-bullet mr-1">›</span> This page is non-commercial research project on portfolio creation.<br />
+            <span class="footer-bullet mr-1">›</span> However, the sourcecode is available on <a href="https://github.com/ultradr3mer/ClaraOriginal">Github</a>.
           </div>
         </div>
         <div class="col-12 col-md-4 mb-3">
-          <h5 class="container-id">U-1</h5>
           <h4>Copyright</h4>
           <div class="vertical-alignment-container">
-            <img class="floated-left-child mr-2" src="~/images/om_saferuse_crop.svg" alt="logo" width="100" height="120" />
-            <p>&copy;2021<br />all rights reserved</p>
+            <p>&copy; Clara Schulz-Thei&szlig;en 2022<br />all rights reserved</p>
           </div>
         </div>
       </div>
