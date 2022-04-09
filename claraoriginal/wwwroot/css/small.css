@@ -1,0 +1,154 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #e6e6e6;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #333333;
+}
+
+footer {
+  background-color: #454545;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #58a6ff;
+}
+
+/* grid rules */
+.row {
+  clear: both;
+}
+
+.limited {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  padding: 0 .75rem;
+  margin: 0 0 .75rem 0;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+footer h2 {
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 1rem 0 .3rem 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vertical-alignment-container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: 0.1rem;
+}
+ 
+header {
+  background-color: #454545;
+}
+
+button#hamburgerBtn {
+  background: none;
+  border: none;
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 0 0.1rem;
+}
+
+.logo-title {
+  margin: 0.3rem;
+  color: black;
+}
+
+nav {
+  background-color: #454545;
+}
+
+  nav ul {
+    margin: 0;
+    padding: 0 .75rem;
+  }
+
+    nav ul li {
+      list-style-type: none;
+    }
+
+  nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #e6e6e6;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  nav li.active {
+    background-color: #ffffff77;
+  }
+
+  nav a:hover {
+    background-color: #ffffff30;
+  }
+
+  nav ul.open {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+  
+  main img {
+	  width: 100%;
+	  height: auto;
+  }
+
+.choice-container {
+  background-color: #454545;
+  padding: 0.75rem;
+}
+
+.option {
+  border-radius: 1rem;
+  background-color: #9d9d9d;
+  width: auto;
+  padding-top: .3rem;
+  padding-right: .5rem;
+  padding-bottom: .3rem;
+  padding-left: .5rem;
+  margin-top: 0;
+  margin-right: .4rem;
+  margin-bottom: .4rem;
+  margin-left: 0;
+}
+
+.option-definitive {
+  background-color: #fa6800;
+}
+
+
