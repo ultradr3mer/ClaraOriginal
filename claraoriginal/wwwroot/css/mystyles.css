@@ -89,6 +89,8 @@ body {
 }
 
 hr {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   border-top: 1px solid #555;
 }
 
@@ -122,8 +124,21 @@ hr {
   margin-bottom: 1rem !important;
 }
 
+.clara-tile-right {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem !important;
+  margin-left: 1rem !important;
+  float: right !important;
+}
+
 @media (min-width: 1200px) {
   .clara-tile {
     float: left !important;
+  }
+
+  .clara-tile-right {
+    width: 150px;
+    height: 150px;
   }
 }
