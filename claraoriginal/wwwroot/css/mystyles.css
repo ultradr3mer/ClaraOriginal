@@ -1,10 +1,10 @@
-﻿header {
-  background-color: #333333;
+﻿h1 {
+  font-size: 5rem;
+  font-weight: 100;
 }
 
-h1 {
-  font-size: 2.5rem;
-  padding: 0.1rem;
+h2 {
+  font-weight: 200;
 }
 
 .logo-div {
@@ -14,18 +14,7 @@ h1 {
 
 body {
   font-family: 'Anek Tamil', sans-serif;
-  color: #e6e6e6;
   font-size: 16px;
-  background-color: #222222;
-}
-
-.vertical-alignment-container {
-  display: flex;
-  align-items: center;
-}
-
-.horizontal-alignment-container {
-  justify-content: center
 }
 
 .logo {
@@ -35,12 +24,7 @@ body {
   color: black;
 }
 
-.bg-dark {
-  background-color: #333333 !important;
-}
-
 footer {
-  background-color: #333333;
   font-size: 16px;
 }
 
@@ -56,12 +40,6 @@ footer {
 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(230, 230, 230, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-dark .navbar-toggler {
-  color: #e6e6e6c7;
-  border-color: #e6e6e6c7;
-  margin: .3rem;
 }
 
 .navbar-nav .nav-link {
@@ -91,23 +69,6 @@ footer {
   }
 }
 
-.choice-container {
-  background-color: #333333;
-  padding: 0.3rem 0.75rem 0.75rem 0.75rem;
-}
-
-.option {
-  border-radius: .25rem;
-  background-color: #9d9d9d;
-  width: auto;
-  padding: .2rem .5rem;
-  min-width: 30.375px;
-  text-align: center;
-}
-
-.option-definitive {
-  background-color: #e91e63;
-}
 
 .row-mlr-1 {
   margin-right: -.25rem;
@@ -149,105 +110,10 @@ hr {
   width: auto;
 }
 
-.welcome-container {
-  background-color: #e91e63;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.welcome-inner-container {
-  width: 400px;
-  height: 600px;
-}
-
-.welcome-edge {
-  position: absolute;
-  bottom: .25rem;
-  right: .25rem;
-}
-
-.welcome-logo {
-  width: 100%;
-  margin-bottom: -35px;
-}
-
-.welcome-hr {
-  border-top: 3px solid black;
-}
-
-.welcome-header {
-  font-size: 5rem;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  margin-top: -20px;
-}
-
-.welcome-subtitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  margin-top: -10px;
-}
-
-.welcome-version {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  color: #0000005b;
-}
-
 .footer-bullet {
   font-size: 1.5rem;
   line-height: 0.8rem;
 }
 
-.container-id {
-  float: right;
-  width: auto;
-  color: #e6e6e6c7;
-}
 
-.choice-button {
-  padding: .2rem .5rem;
-}
 
-.decorative-guid {
-  margin-bottom: 0;
-  font-size: 0.8rem;
-  color: #e6e6e6c7;
-}
-
-@media (min-width: 992px) {
-  .welcome-principle {
-    display: none;
-  }
-}
-
-@media (max-width: 991.9px) {
-  .welcome-inner-container {
-    width: 250px;
-    height: 370px;
-  }
-
-  .welcome-logo {
-    margin-bottom: -40px;
-  }
-
-  .welcome-header {
-    font-size: 3.5rem;
-  }
-
-  .welcome-subtitle {
-    font-size: 1rem;
-  }
-
-  .welcome-principle-lg {
-    display: none;
-  }
-}

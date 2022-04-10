@@ -5,10 +5,31 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-$theme-colors: ( "primary": #e91e63, "secondary": #9d9d9d );
-
 @import "functions";
 @import "variables";
+
+$theme-colors: (
+  "primary": #e91e63,
+  "secondary": #9d9d9d,
+  "light": #343a40,
+  "medium": #252b30,
+  "dark": #171c21
+);
+
+$primary: #e91e63;
+$secondary: #9d9d9d;
+$light: #343a40;
+$medium: #252b30;
+$dark: #171c21;
+
+$body-bg: $dark;
+$body-color: #e6e6e6;
+
+$navbar-dark-color: $body-color;
+$navbar-dark-hover-color: rgba($white, .5);
+
+$link-color: #1e80e9;
+
 @import "mixins";
 @import "root";
 @import "reboot";
@@ -44,3 +65,19 @@ $theme-colors: ( "primary": #e91e63, "secondary": #9d9d9d );
 @import "spinners";
 @import "utilities";
 @import "print";
+
+h1 {
+  color: $primary;
+}
+
+h2 {
+  color: $primary;
+}
+
+h3 {
+  color: $primary;
+}
+
+.logo-div {
+  background-color: $primary;
+}

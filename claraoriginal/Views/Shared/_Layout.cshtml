@@ -6,10 +6,6 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300;400&display=swap" rel="stylesheet">
-  @*<link href="~/css/normalize.css" rel="stylesheet">
-    <link href="~/css/small.css" rel="stylesheet">
-    <link href="~/css/medium.css" rel="stylesheet">
-    <link href="~/css/large.css" rel="stylesheet">*@
 
   <link rel="stylesheet" href="~/lib/bootstrap-4.6.0/scss/custom-bootstrap.min.css" />
   <link rel="stylesheet" href="~/css/mystyles.css" />
@@ -18,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-light">
     <div class="container-fluid container">
       <div class="logo-div mr-2">
         <img class="logo" src="~/images/logo.png" />
@@ -43,23 +39,19 @@
     </div>
   </nav>
 
-  <main class="mb-3 mt-3">
-    <div class="container">
-      @RenderBody()
-    </div>
-  </main>
+  @RenderBody()
 
-  <footer class="p-2">
+  <footer class="p-2 bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-8 mb-3">
+        <div class="col-12 col-md-6 mb-3">
           <h4>This Page</h4>
           <div>
             <span class="footer-bullet mr-1">›</span> This page is non-commercial research project on portfolio creation.<br />
             <span class="footer-bullet mr-1">›</span> However, the sourcecode is available on <a href="https://github.com/ultradr3mer/ClaraOriginal">Github</a>.
           </div>
         </div>
-        <div class="col-12 col-md-4 mb-3">
+        <div class="col-12 col-md-6 mb-3">
           <h4>Copyright</h4>
           <div class="vertical-alignment-container">
             <p>&copy; Clara Schulz-Thei&szlig;en 2022<br />all rights reserved</p>
