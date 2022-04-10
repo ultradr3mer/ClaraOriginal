@@ -1,31 +1,31 @@
 ﻿h1 {
-  font-size: 5rem;
+  font-size: 5.2rem;
   font-weight: 100;
 }
 
 h2 {
+  font-size: 2.7rem;
   font-weight: 200;
 }
 
+h3 {
+  font-weight: 200;
+}
+
+
 .logo-div {
-  background-color: #e91e63;
   position: relative;
 }
 
 body {
   font-family: 'Anek Tamil', sans-serif;
-  font-size: 16px;
+  font-size: 1.1em;
 }
 
 .logo {
   margin: 0;
   width: 50px;
   height: 50px;
-  color: black;
-}
-
-footer {
-  font-size: 16px;
 }
 
 .navbar {
@@ -115,5 +115,15 @@ hr {
   line-height: 0.8rem;
 }
 
+.clara-tile {
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem !important;
+  margin-bottom: 1rem !important;
+}
 
-
+@media (min-width: 1200px) {
+  .clara-tile {
+    float: left !important;
+  }
+}
