@@ -132,6 +132,12 @@ hr {
   float: right !important;
 }
 
+.clara-tile-project {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem !important;
+}
+
 @media (min-width: 1200px) {
   .clara-tile {
     float: left !important;
@@ -140,6 +146,11 @@ hr {
   }
 
   .clara-tile-right {
+    width: 150px;
+    height: 150px;
+  }
+
+  .clara-tile-project {
     width: 150px;
     height: 150px;
   }
