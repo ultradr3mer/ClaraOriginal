@@ -144,3 +144,7 @@ hr {
     height: 150px;
   }
 }
+
+.clara-screen {
+  max-height: 570px;
+}
