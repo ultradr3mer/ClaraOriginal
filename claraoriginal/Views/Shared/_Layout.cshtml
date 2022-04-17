@@ -25,13 +25,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link @(ViewData["Title"] as string == "Home" ? "active" : "")" aria-current="page" asp-controller="home" asp-action="index">Home</a>
+            <a class="nav-link @(ViewData["Title"] as string == "Home" ? "text-primary" : "")" aria-current="page" asp-controller="home" asp-action="index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link @(ViewData["Title"] as string == "Project details" ? "active" : "")" aria-current="page" asp-controller="home" asp-action="projects">Projects</a>
+            <a class="nav-link @(ViewData["Title"] as string == "Projects" ? "text-primary" : "")" aria-current="page" asp-controller="home" asp-action="projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link @(ViewData["Title"] as string == "Timeline" ? "active" : "")" aria-current="page" asp-controller="home" asp-action="timeline">Timeline</a>
+            <a class="nav-link @(ViewData["Title"] as string == "Timeline" ? "text-primary" : "")" aria-current="page" asp-controller="home" asp-action="timeline">Timeline</a>
           </li>
           @*<partial name="_LoginPartial" />*@
         </ul>

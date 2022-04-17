@@ -2,19 +2,19 @@
   ViewData["Title"] = "Home";
 }
 
-<div class="container bg-dark">
-  <div class="row justify-content-center pt-3">
-    <div class="col-auto pb-3">
-      <img src="~/images/om_header.png" width="220" height="220" />
-    </div>
-    <div class="col-auto pb-3 my-auto">
-      <h1 class="text-primary">ClaraOriginal</h1>
-      <h4>I'm not special, I'm original. The original.</h4>
+
+<main class="bg-dark pb-4">
+  <div class="container">
+    <div class="row justify-content-center pt-3">
+      <div class="col-auto pb-3">
+        <img src="~/images/om_header.png" width="220" height="220" />
+      </div>
+      <div class="col-auto pb-3 my-auto">
+        <h1 class="text-primary">ClaraOriginal</h1>
+        <h4>I'm not special, I'm original. The original.</h4>
+      </div>
     </div>
   </div>
-</div>
-
-<main>
   <div class="container bg-medium mb-4">
     <div class="row">
       <div class="col-12 mt-2">
@@ -38,6 +38,7 @@
   <div class="container bg-medium mb-4">
     <div class="row">
       <div class="col-12 mt-2">
+        <a class="btn btn-primary float-right" aria-current="page" asp-controller="home" asp-action="timeline"><span class="button-bullet mr-1">›</span>Details</a>
         <h2>Background</h2>
       </div>
     </div>
@@ -64,9 +65,10 @@
       </div>
     </div>
   </div>
-  <div class="container bg-medium mb-4">
+  <div class="container bg-medium">
     <div class="row">
       <div class="col-12 mb-3 mt-2">
+        <a class="btn btn-primary float-right" aria-current="page" asp-controller="home" asp-action="projects"><span class="button-bullet mr-1">›</span>Details</a>
         <h2>Selected projects</h2>
       </div>
     </div>

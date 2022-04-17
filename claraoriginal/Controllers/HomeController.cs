@@ -28,6 +28,11 @@ namespace claraoriginal.Controllers
       return View();
     }
 
+    public IActionResult Timeline()
+    {
+      return View();
+    }
+
     public IActionResult Privacy()
     {
       return View();

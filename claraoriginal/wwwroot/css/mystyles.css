@@ -98,10 +98,6 @@ hr {
   float: right;
 }
 
-.btn-primary {
-  color: black;
-}
-
 .floated-right-child {
   float: right;
   width: auto;
@@ -114,6 +110,11 @@ hr {
 
 .footer-bullet {
   font-size: 1.5rem;
+  line-height: 0.8rem;
+}
+
+.button-bullet {
+  font-size: 1.3rem;
   line-height: 0.8rem;
 }
 
